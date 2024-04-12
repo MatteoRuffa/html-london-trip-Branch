@@ -4,4 +4,10 @@
 }
 .container img {
     width: 300px;
+    text-transform: uppercase;
+    transition: 0.3s ease; 
+    padding: 50px;
+}
+.container img:hover {
+    transform: scale(1.5);
 }
